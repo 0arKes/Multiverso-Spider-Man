@@ -3,7 +3,7 @@
 <H2>Sobre</H2>
 <P>Esse projeto interativo, apresenta informações sobre cada filme, de cada ator do Homem-Aranha, com foco em um design visual atrativo e animações imersivas. Foi desenvolvido durante o Bootcamp da <a href="https://web.dio.me/track/coding-future-front-end-do-zero">DIO</a></P>
 
-<h2><a href="#">📸Clique aqui para visitar o projeto</a></h2>
+<h2><a href="0arkes.github.io/Multiverso-Spider-Man/">📸Clique aqui para visitar o projeto</a></h2>
 
 <img src="github/pg.png" alt="">
 
@@ -38,3 +38,20 @@
         <dd><h4>O fundo e a imagem do Homem-Aranha mudam com base na seleção.</h4></dd>
     </dl>
 </div>
+
+<section>
+    <h2>Como Rodar o Projeto</h2>
+    <p>Siga os passos abaixo para rodar o projeto localmente:</p>
+    <ol>
+        <li><strong>Baixe ou clone o repositório:</strong> 
+            <p>Clone o repositório utilizando o comando:</p>
+            <code>git clone <a href="https://github.com/0arKes/Multiverso-Spider-Man.git">https://github.com/0arKes/Multiverso-Spider-Man.git</a></code>
+        </li>
+        <li><strong>Abra o arquivo HTML</strong> 
+            <p>Abra o arquivo <code>index.html</code> em seu navegador | ou abra utilizando Line Server.</p>
+        </li>
+        <li><strong>Pronto!</strong> 
+            <p>O projeto estará rodando no seu navegador.</p>
+        </li>
+    </ol>
+</section>
