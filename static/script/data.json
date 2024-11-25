@@ -1,0 +1,116 @@
+{
+  "spider_men": [
+    {
+      "name": "Tobey Maguire",
+      "image_url": "./static/img/bg/bg1.png",
+      "logo_url": "./static/img/icons/spiderman1.png",
+      "spiderman": "./static/img/bg/spider-man-01.png",
+      "movies": [
+        {
+          "title": "Spider-Man (2002)",
+          "synopsis": "Peter Parker, um jovem tímido e estudioso, é mordido por uma aranha geneticamente modificada e ganha poderes incríveis, incluindo força sobre-humana, habilidades de escalada e o sentido de aranha. Enquanto aprende a lidar com suas novas habilidades, Peter sofre uma grande tragédia pessoal com a morte de seu tio Ben. Motivado pela famosa lição &quot com grandes poderes vêm grandes responsabilidades &quot, Peter adota a identidade de Homem-Aranha. Ele enfrenta o Duende Verde, um cientista corrupto que se torna seu primeiro grande inimigo, colocando em risco a cidade de Nova York e as pessoas que Peter ama.",
+          "images": [
+            "./static/img/spiderman-tobey/movie-01/gallery/image-01.png",
+            "./static/img/spiderman-tobey/movie-01/gallery/image-02.png",
+            "./static/img/spiderman-tobey/movie-01/gallery/image-03.png"
+          ],
+          "year": 2002,
+          "director": "Sam Raimi"
+        },
+        {
+          "title": "Spider-Man 2 (2004)",
+          "synopsis": "Dois anos após se tornar o Homem-Aranha, Peter Parker enfrenta o dilema de equilibrar sua vida pessoal com sua responsabilidade como herói. Ele começa a perder seus poderes devido ao estresse e à dúvida sobre seu papel como Homem-Aranha. Ao mesmo tempo, o cientista Dr. Otto Octavius, mentor de Peter, sofre um acidente catastrófico e se transforma no perigoso Dr. Octopus. Armado com braços mecânicos que possuem inteligência própria, Octavius ameaça a cidade, e Peter deve decidir se voltará a ser o Homem-Aranha para enfrentá-lo e salvar Nova York.",
+          "images": [
+            "./static/img/spiderman-tobey/movie-02/gallery/image-01.png",
+            "./static/img/spiderman-tobey/movie-02/gallery/image-02.png",
+            "./static/img/spiderman-tobey/movie-02/gallery/image-03.png"
+          ],
+          "year": 2004,
+          "director": "Sam Raimi"
+        },
+        {
+          "title": "Spider-Man 3 (2007)",
+          "synopsis": "Peter Parker está em um momento de estabilidade em sua vida, mas sua felicidade é ameaçada quando ele enfrenta vários novos inimigos: o Homem-Areia, que é responsável pela morte de seu tio Ben; Venom, um simbionte alienígena que se funde com Eddie Brock, um rival de Peter; e o próprio Harry Osborn, que busca vingança contra o Homem-Aranha após a morte de seu pai, o Duende Verde original. Além disso, Peter luta contra a influência sombria do simbionte alienígena, que amplifica seus piores traços. Ele precisa superar seus conflitos internos e unir forças com aliados inesperados para derrotar seus inimigos.",
+          "images": [
+            "./static/img/spiderman-tobey/movie-03/gallery/image-01.png",
+            "./static/img/spiderman-tobey/movie-03/gallery/image-02.png",
+            "./static/img/spiderman-tobey/movie-03/gallery/image-03.png"
+          ],
+          "year": 2007,
+          "director": "Sam Raimi"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Garfield",
+      "image_url": "./static/img/bg/bg2.png",
+      "logo_url": "./static/img/icons/spiderman1-andrew.png",
+      "spiderman": "./static/img/bg/spider-man-02.png",
+      "movies": [
+        {
+          "title": "The Amazing Spider-Man (2012)",
+          "synopsis": "Peter Parker, um estudante do ensino médio que perdeu os pais quando criança, descobre um mistério envolvendo seu pai e o trabalho que ele fazia para a Oscorp. Durante uma visita ao laboratório, Peter é mordido por uma aranha geneticamente modificada e ganha superpoderes. Ele enfrenta o Dr. Curt Connors, um ex-colega de seu pai, que se transforma no Lagarto após um experimento que deu errado. Enquanto tenta parar Connors, Peter também trabalha para conquistar Gwen Stacy e enfrenta os desafios de equilibrar sua vida pessoal e a responsabilidade como Homem-Aranha.",
+          "images": [
+            "./static/img/spiderman-andrew/movie-01/gallery/image-01.png",
+            "./static/img/spiderman-andrew/movie-01/gallery/image-02.png",
+            "./static/img/spiderman-andrew/movie-01/gallery/image-03.png"
+          ],
+          "year": 2012,
+          "director": "Marc Webb"
+        },
+        {
+          "title": "The Amazing Spider-Man 2 (2014)",
+          "synopsis": "Peter Parker continua a proteger Nova York como o Homem-Aranha enquanto tenta manter seu relacionamento com Gwen Stacy. Ele descobre novas informações sobre o desaparecimento de seus pais e enfrenta dois novos inimigos: Max Dillon, um funcionário da Oscorp que se transforma no poderoso Electro após um acidente, e Harry Osborn, amigo de infância de Peter, que se torna o Duende Verde. Enquanto luta para proteger a cidade, Peter também enfrenta uma tragédia devastadora que muda sua vida para sempre.",
+          "images": [
+            "./static/img/spiderman-andrew/movie-02/gallery/image-01.png",
+            "./static/img/spiderman-andrew/movie-02/gallery/image-02.png",
+            "./static/img/spiderman-andrew/movie-02/gallery/image-03.png"
+          ],
+          "year": 2014,
+          "director": "Marc Webb"
+        }
+      ]
+    },
+    {
+      "name": "Tom Holland",
+      "image_url": "./static/img/bg/bg3.png",
+      "logo_url": "./static/img/icons/spiderman1-tom.png",
+      "spiderman": "./static/img/bg/spider-man-03.png",
+      "movies": [
+        {
+          "title": "Spider-Man: Homecoming (2017)",
+          "synopsis": "Depois de lutar ao lado dos Vingadores, Peter Parker tenta provar que é digno de se tornar um herói de verdade. Sob a orientação de Tony Stark, ele luta para equilibrar sua vida como estudante do ensino médio e como o Homem-Aranha. Ele descobre que Adrian Toomes, também conhecido como Abutre, está contrabandeando armas perigosas feitas com tecnologia alienígena. Peter enfrenta o Abutre, mas também aprende valiosas lições sobre ser um herói e as responsabilidades que isso exige.",
+          "images": [
+            "./static/img/spiderman-tom/movie-01/gallery/image-01.png",
+            "./static/img/spiderman-tom/movie-01/gallery/image-02.png",
+            "./static/img/spiderman-tom/movie-01/gallery/image-03.png"
+          ],
+          "year": 2017,
+          "director": "Jon Watts"
+        },
+        {
+          "title": "Spider-Man: Far From Home (2019)",
+          "synopsis": "Após os eventos de &quot Vingadores: Ultimato &quot, Peter Parker tenta tirar férias e aproveitar uma viagem escolar pela Europa com seus amigos. No entanto, ele é recrutado por Nick Fury e conhece Quentin Beck, também conhecido como Mysterio, que afirma ser um herói de outra dimensão. Quando as verdadeiras intenções de Mysterio são reveladas, Peter precisa assumir o manto de protetor da Terra e enfrentar uma ameaça que coloca o mundo em risco.",
+          "images": [
+            "./static/img/spiderman-tom/movie-02/gallery/image-01.png",
+            "./static/img/spiderman-tom/movie-02/gallery/image-02.png",
+            "./static/img/spiderman-tom/movie-02/gallery/image-03.png"
+          ],
+          "year": 2019,
+          "director": "Jon Watts"
+        },
+        {
+          "title": "Spider-Man: No Way Home (2021)",
+          "synopsis": "Com sua identidade como Homem-Aranha revelada ao mundo, Peter Parker enfrenta as consequências de viver uma vida pública como super-herói. Ele busca a ajuda do Doutor Estranho para lançar um feitiço que fará todos esquecerem sua identidade. Porém, o feitiço sai errado e vilões de outras dimensões, como Duende Verde, Dr. Octopus e Electro, invadem sua realidade. Peter se une a versões alternativas de si mesmo para corrigir o caos multiversal, enfrentando desafios emocionais e físicos enquanto aprende o que realmente significa ser o Homem-Aranha.",
+          "images": [
+            "./static/img/spiderman-tom/movie-03/gallery/image-01.png",
+            "./static/img/spiderman-tom/movie-03/gallery/image-02.png",
+            "./static/img/spiderman-tom/movie-03/gallery/image-03.png"
+          ],
+          "year": 2021,
+          "director": "Jon Watts"
+        }
+      ]
+    }
+  ]
+}

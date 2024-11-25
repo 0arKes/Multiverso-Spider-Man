@@ -1,0 +1,89 @@
+
+
+/*botão lateral*/
+.btn-movies{
+    margin: 50px 12px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-movies:hover{
+    background-color: var(--white);
+    color: var(--red);
+}
+
+.btn-movies-active{
+    background-color: var(--white);
+    color: var(--red);
+}
+
+.btn-movies:disabled{
+    border: 2px solid rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
+}
+
+.btn-movies:disabled:hover{
+    cursor: no-drop;
+    background-color: rgb(78, 78, 78);
+    color: rgb(148, 148, 148);
+}
+
+nav{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav::before{
+    z-index: 0;
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 500px;
+    border-radius: 2px;
+    background-color: #fff; /* Cor da linha */
+}
+
+li{
+    position: relative;
+    z-index: 1;
+}
+
+/*botão de avançar e voltar*/
+.btn-next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: var(--white);
+    border: 4px solid var(--white);
+    transition: color,border 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-next:disabled{
+    color: var(--black);
+    border: 4px solid var(--black);
+}
+
+/*Informações do filme*/
+.info-button{
+    margin: 8px 0 20px 0;
+    display: flex;
+}
+.btn-info{
+    margin: 0 5px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: var(--red);
+}

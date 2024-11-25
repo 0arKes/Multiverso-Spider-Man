@@ -1,0 +1,73 @@
+@import url(buttons.css);
+@import url(card.css);
+
+.background{
+    z-index: -5;
+    position: relative;
+}
+#image{
+    position: absolute;
+    transition: all 2s;
+}
+#image img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.app{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.250), rgba(0, 0, 0, 0.750));
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#text-sinopse{
+    font-size: 1.2rem;
+}
+
+#spider-img{
+    max-width: 500px;
+}
+
+#base{
+    margin: 0 4% 4% 0;
+    text-align: end;
+}
+
+.spiderman-div-enter{
+    transform: translate(0, 100px);
+}
+
+.spiderman-div-exit{
+    transform: translate(0, -1000px);
+}
+
+.spiderman-div{
+    transition: all 3s ease;
+}
+
+span{
+    color: var(--white);
+    padding: 5px;
+    text-align: center;
+    background-color: var(--black);
+}
+
+a{
+    color: var(--red);
+}
+
+#spider-img{
+    max-height: 600px;
+}

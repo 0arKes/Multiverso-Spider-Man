@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/img/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/global.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>SpiderVerse</title>
+</head>
+<body>
+
+    <div class="background">
+        <div id="image">
+            <img src="./static/img/bg/bg1.jpg" alt="Nova York" class="bg">
+            <img src="./static/img/bg/bg2.jpg" alt="Nova York" class="bg">
+            <img src="./static/img/bg/bg3.jpg" alt="Nova York" class="bg">
+            
+        </div>
+    </div>
+    <div class="app">
+        <span>Criado por <a href="https://github.com/0arKes" target="_blank">arKes</a></span>
+        <main>
+            <div class="left-column">
+                <nav class="navigator">
+                    <img id="icon_spider" src="static/img/icons/spiderman1.png" alt="icon">
+                    <ul>
+                        <li><button type="button" class="btn-movies btn-movies-active" onclick="moveDet(0, this)">1</button></li>
+                        <li><button type="button" class="btn-movies" onclick="moveDet(1, this)">2</button></li>
+                        <li><button type="button" class="btn-movies" id="last-movie" onclick="moveDet(2, this)">3</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div class="sinopse-card">
+                    <div class="info-button">
+                        <p class="btn-info" id="ano">2007</p>
+                        <p class="btn-info" id="diretor">diretor</p>
+                    </div>
+                    <p id="text-sinopse">Peter Parker, um jovem tímido e estudioso, é mordido por uma aranha geneticamente modificada e ganha poderes incríveis, incluindo força sobre-humana, habilidades de escalada e o sentido de aranha. Enquanto aprende a lidar com suas novas habilidades, Peter sofre uma grande tragédia pessoal com a morte de seu tio Ben. Motivado pela famosa lição " com grandes poderes vêm grandes responsabilidades ", Peter adota a identidade de Homem-Aranha. Ele enfrenta o Duende Verde, um cientista corrupto que se torna seu primeiro grande inimigo, colocando em risco a cidade de Nova York e as pessoas que Peter ama.</p>
+                </div>
+                <div class="card-image-div">
+                    <img class="card-image" src="./static/img/spiderman-tobey/movie-01/gallery/image-01.png" alt="Card do Filme">
+                    <img class="card-image" src="./static/img/spiderman-tobey/movie-01/gallery/image-02.png" alt="Card do Filme">
+                    <img class="card-image" src="./static/img/spiderman-tobey/movie-01/gallery/image-03.png" alt="Card do Filme">
+                </div>
+            </div>
+            <div class="spiderman-div">
+                <img id="spider-img" src="static/img/bg/spider-man-01.png" alt="Homem-Aranha">
+            </div>
+        </main>
+
+        <div>
+            <div id="base">
+                <h1 id="title">Tobey Maguire</h1>
+                <div class="btn">
+                    <button type="button" onclick="navMenu(-1)" id="prev" class="btn-next" disabled>&lt;</button>
+                    <button type="button" onclick="navMenu(1)" id="next" class="btn-next">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="static/script/main.js"></script>
+</body>
+</html>
