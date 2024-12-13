@@ -3,7 +3,7 @@
 <H2>Sobre</H2>
 <P>Esse projeto interativo, apresenta informações sobre cada filme, de cada ator do Homem-Aranha, com foco em um design visual atrativo e animações imersivas. Foi desenvolvido durante o Bootcamp da <a href="https://web.dio.me/track/coding-future-front-end-do-zero">DIO</a></P>
 
-<h2><a href="0arkes.github.io/Multiverso-Spider-Man/">📸Clique aqui para visitar o projeto</a></h2>
+<h2><a href="https://0arkes.github.io/Multiverso-Spider-Man/">📸Clique aqui para visitar o projeto</a></h2>
 
 <img src="github/pg.png" alt="">
 
